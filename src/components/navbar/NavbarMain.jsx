@@ -24,11 +24,11 @@ const NavbarMain = () => {
                 <button className='text-2xl border border-orange rounded-full p-3' onClick={toggleMenu}>
 
                     <div
-                        class="group flex  cursor-pointer items-center justify-center rounded-3xl  p-2 ">
-                        <div class="space-y-2">
-                            <span class={`block h-1 w-10 origin-center rounded-full bg-white transition-transform ease-in-out ${menuOpen ? "  group-hover:translate-y-1.5 group-hover:rotate-45 " : ""}`}></span>
+                        className="group flex  cursor-pointer items-center justify-center rounded-3xl  p-2 ">
+                        <div className="space-y-2">
+                            <span className={`block h-1 w-10 origin-center rounded-full bg-white transition-transform ease-in-out ${menuOpen ? "  group-hover:translate-y-1.5 group-hover:rotate-45 " : ""}`}></span>
                             <span className={`block h-1 w-8 origin-center rounded-full bg-white transition-transform ease-in-out ${menuOpen ? " group-hover:w-10 group-hover:-translate-y-1.5 group-hover:-rotate-45" : ""}`} ></span>
-                            {/* <span class={`block h-1 w-10 origin-center rounded-full bg-white transition-transform ease-in-out group-hover:bg-cyan ${menuOpen ? "  translate-y-1.5 rotate-45 " : ""}`}></span>
+                            {/* <span className={`block h-1 w-10 origin-center rounded-full bg-white transition-transform ease-in-out group-hover:bg-cyan ${menuOpen ? "  translate-y-1.5 rotate-45 " : ""}`}></span>
                             <span className={`block h-1 w-8 origin-center rounded-full bg-white transition-transform ease-in-out group-hover:bg-cyan ${menuOpen ? " w-10 -translate-y-1.5 -rotate-45" : ""}`} ></span> */}
                         </div>
                     </div>

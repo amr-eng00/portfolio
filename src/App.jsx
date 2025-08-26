@@ -12,12 +12,17 @@ import ProjectsMain from './components/projectsSection.jsx/ProjectsMain'
 import SkillsMain from './components/skillsSection/SkillsMain'
 import SubSkills from './components/skillsSection/SubSkills'
 import FooterMain from './components/footer/FooterMain'
-
+import Test1 from './components/Test1'
+import {motion} from 'framer-motion'
 
 function App() {
 
   return (
-    <main className='font-body'>
+    <motion.main
+    // initial={{ opacity: 0 }}  // وضعیت اولیه: نامرئی
+    //     animate={{ opacity: 1 }}  // وضعیت نهایی: مرئی
+    //     transition={{ duration: 5,type: "spring" }}  // مدت زمان: ۰.۵ ثانیه
+    className='font-body'>
       <NavbarMain />
       <HeroMain />
       <HeroGradient />
@@ -29,9 +34,10 @@ function App() {
       <ProjectsMain />
       <ContactMeMain/>
      <FooterMain/>
+{/* <Test1/> */}
 
       <HelperSection />
-    </main>
+    </motion.main>
   )
 }
 
