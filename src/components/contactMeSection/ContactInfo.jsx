@@ -7,9 +7,9 @@ import SingleInfo from "./SingleInfo";
 const ContactInfo = () => {
     return (
         <div className='flex flex-col gap-4 text-white'>
-            <SingleInfo text="abdelrahman.qassem@gmail.com" Image={HiOutlineMail} />
-            <SingleInfo text="+2 01000 66 24 55" Image={FiPhone} />
-            <SingleInfo text="Alexandria, Egypt" Image={IoLocationOutline} />
+            <SingleInfo text="eng.78amir@gmail.com" Image={HiOutlineMail} />
+            <SingleInfo text="+989152076080" Image={FiPhone} />
+            <SingleInfo text="Mashhad, Iran" Image={IoLocationOutline} />
         </div>
     )
 }

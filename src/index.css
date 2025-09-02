@@ -43,6 +43,11 @@ body {
   @apply bg-black;
 }
 
+body ::selection {
+  color: #1e1917;
+  background: #fb9718;
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

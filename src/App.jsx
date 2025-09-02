@@ -36,7 +36,7 @@ function App() {
      <FooterMain/>
 {/* <Test1/> */}
 
-      <HelperSection />
+      {/* <HelperSection /> */}
     </motion.main>
   )
 }

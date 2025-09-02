@@ -10,6 +10,10 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants';
+import { SiPostgresql } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+
 
 const skills = [
   {
@@ -25,10 +29,6 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
     skill: "ReactJS",
     icon: FaReact,
   },
@@ -37,12 +37,20 @@ const skills = [
     icon: SiRedux,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "NodeJS",
+    icon: FaNode,
+  },
+  {
+    skill: "ExpressJS",
+    icon: SiExpress,
+  },
+  {
+    skill: "PostgreSQL",
+    icon: SiPostgresql,
   },
 ];
 
